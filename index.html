@@ -30,9 +30,7 @@
                 }
 
                 var canvas = document.createElement( 'canvas' );
-                const container = document.querySelector("body");
-                container.prepend(canvas);
-                /* document.querySelector( 'body' ).appendChild( canvas ); */
+                document.querySelector( 'body' ).appendChild( canvas );
                 __cargo_web.canvas = canvas;
 
                 return canvas;
@@ -42,7 +40,7 @@
 </head>
 <body>
 	<div class="textbox">
-		<p> Trisst har samma vinstchans som trisslotter 2020 har/hadde <br>
+		<p> Trisst har <a href="info.html">samma vinstchans som trisslotter 2020 har/hadde</a> <br>
 		Spelet är fri mjukvara under licensen AGPL-v3. Källkoden kan hittas <a href="http://git.sr.ht/~cat/trisst">här</a> </p>
 	</div>  
 	<script src="trisst.js"></script>
